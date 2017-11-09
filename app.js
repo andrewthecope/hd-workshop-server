@@ -18,6 +18,6 @@ app.get('/mansplain', (req, res) => {
 
 app.get('/', (req, res) => res.send('<html>Hello World</html>'))
 
-app.get('/test', (req, res) => { console.log("hello test"); res.send("hello test"); })
+app.get('/test', (req, res) => { console.log("{hello test"); res.send("{ 'hello test':true }"); })
 
 app.listen(process.env.PORT, () => console.log('Example app listening on port 3000!'))
