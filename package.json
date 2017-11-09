@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andrewthecope/hd-workshop-server/issues"
   },
+  "dependencies": {
+    "express": "^4.12.4"
+  }
   "homepage": "https://github.com/andrewthecope/hd-workshop-server#readme"
 }
