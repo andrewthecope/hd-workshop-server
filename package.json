@@ -1,22 +1,23 @@
 {
-  "name": "hackdavis-iosworkshop",
+  "name": "workshopserver",
   "version": "1.0.0",
-  "description": "Are Your Mansplaining?",
-  "main": "Server/app.js",
+  "description": "asdf",
+  "main": "app.js",
   "scripts": {
-    "test": "node Server/app.js"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewthecope/iOSWorkshop-HackDavis.git"
+    "url": "git+https://github.com/andrewthecope/hd-workshop-server.git"
   },
   "keywords": [
-    "."
+    "andrew",
+    "cope"
   ],
   "author": "Andrew Cope",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrewthecope/iOSWorkshop-HackDavis/issues"
+    "url": "https://github.com/andrewthecope/hd-workshop-server/issues"
   },
-  "homepage": "https://github.com/andrewthecope/iOSWorkshop-HackDavis#readme"
+  "homepage": "https://github.com/andrewthecope/hd-workshop-server#readme"
 }
