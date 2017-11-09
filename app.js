@@ -4,7 +4,9 @@ const app = express()
 app.get('/mansplain', (req, res) => {
   console.log('hello world');
   var text = req.query.text;
-  if (text.includes('actually')) {
+  var normalizedText = text.toLowerCase();
+  
+  if (normalizedText.includes('actually')) {
     var result = {"isMansplaining":true};
     res.send(result);
   } else {
